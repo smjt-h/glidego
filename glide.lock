@@ -1,0 +1,6 @@
+hash: 3c96ab5f0943f00263a3e7bf84902823ada241986dcf92f355bc731c0b1c8d01
+updated: 2018-01-23T10:13:20.670150361+08:00
+imports:
+- name: github.com/dustin/go-humanize
+  version: bb3d318650d48840a39aa21a027c6630e198e626
+testImports: []
