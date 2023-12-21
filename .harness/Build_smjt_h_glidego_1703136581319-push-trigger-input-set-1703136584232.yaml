@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_smjt_h_glidego_1703136581319-push-trigger-input-set
+  identifier: Build_smjt_h_glidego_1703136581319pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: autogen
+  pipeline:
+    identifier: Build_smjt_h_glidego_1703136581319
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
