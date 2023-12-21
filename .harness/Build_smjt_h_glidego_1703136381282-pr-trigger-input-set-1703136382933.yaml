@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_smjt_h_glidego_1703136381282-pr-trigger-input-set
+  identifier: Build_smjt_h_glidego_1703136381282prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: autogen
+  pipeline:
+    identifier: Build_smjt_h_glidego_1703136381282
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
