@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_glidego_1706866309569-pr-trigger-input-set
+  identifier: Build_glidego_1706866309569prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: qajt
+  pipeline:
+    identifier: Build_glidego_1706866309569
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
