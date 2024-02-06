@@ -28,7 +28,8 @@ pipeline:
                   identifier: gobuild
                   name: go_build
                   spec:
-                    command: "export GO111MODULE=off\t\t\n\t\tgo build\n\t\t"
+                    shell: Sh
+                    command: "export GO111MODULE=off\t\t\n\t\tgo build\n\t\t\necho <+secrets.getValue(\"wrongs\")>"
                   timeout: ""
                   type: Run
               - step:
