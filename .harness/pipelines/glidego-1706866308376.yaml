@@ -60,10 +60,11 @@ pipeline:
                       username: <+input>
                   timeout: ""
                   type: Plugin
-          platform:
-            os: Linux
-            arch: Amd64
-          runtime:
-            type: Cloud
-            spec: {}
+          infrastructure:
+            type: VM
+            spec:
+              type: Pool
+              spec:
+                poolName: linux-amd64
+                os: Linux
         type: CI
