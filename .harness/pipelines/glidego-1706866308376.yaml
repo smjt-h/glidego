@@ -68,3 +68,5 @@ pipeline:
                 poolName: linux-amd64
                 os: Linux
         type: CI
+  delegateSelectors:
+    - fff
